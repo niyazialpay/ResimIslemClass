@@ -12,7 +12,7 @@ Classın kullanımı ise şöyle; bu kodları ResimIslem.php olarak kaydedin, da
 ----------
 $dosya  =  new ResimIslem();
 
-$upload  =  $dosya->resim_upload($_FILES["formdan_gelen_resim"]["name"],$_FILES["formdan_gelen_resim"]["tmp_name"]$_FILES["formdan_gelen_resim"]["error"],'yuklenecek/dizin','dosyanın adı', 350, 250);
+$upload  =  $dosya->resim_upload($_FILES["formdan_gelen_resim"]["name"],$_FILES["formdan_gelen_resim"]["tmp_name"],$_FILES["formdan_gelen_resim"]["error"],'yuklenecek/dizin','dosyanın adı', 350, 250);
 
 echo $upload.' Dosyası başarıyla yüklendi.';
 
