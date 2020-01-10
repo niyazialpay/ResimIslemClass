@@ -1,4 +1,7 @@
 <?php
+/*
+https://github.com/niyazialpay/ResimIslemClass/
+*/
 class ResimIslem{
     private function dosya_uzantisi($dosya,$uzanti=-1){
         $b = strrpos($dosya,".");
